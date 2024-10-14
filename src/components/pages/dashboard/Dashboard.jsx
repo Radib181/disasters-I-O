@@ -1,7 +1,10 @@
+import Filter from './../../shared/Filter';
+
+
 const Dashboard = () => {
   return (
     <div>
-      <h1>Dashboard</h1>
+      <Filter welcome="welcome back" heading="Dashboard" btnText="Cypher AI" />
     </div>
   );
 };
