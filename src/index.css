@@ -2,3 +2,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.no-scroll{
+    overflow: hidden;
+}
+.active{
+    @apply font-bold text-blackBold  md:underline md:underline-offset-[24px];
+}
