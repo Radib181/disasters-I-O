@@ -2,15 +2,15 @@ import { NavLink } from "react-router-dom";
 import { navbarList } from "../lib/db";
 import { cn } from "../lib/utils/cn";
 
-const MobileMenu = ({toggle, handle}) => {
+const MobileMenu = ({ toggle, handle }) => {
   return (
     <div>
-      {/* mobile menu */}
       <div
         className={cn(
-          "absolute md:hidden top-14 left-0 w-full bg-white h-screen flex flex-col items-start gap-4 font-semibold text-2xl",
+          "absolute md:hidden top-14 left-0 w-full bg-white h-screen flex flex-col items-start gap-4 font-semibold text-2xl z-[999999] transform transition-transform duration-300 ",
           toggle ? "opacity-100" : "opacity-0"
         )}
+        style={{ transition: "transform 0.3 ease, opacity 0.3 ease" }}
       >
         <ul className="ms-5">
           {navbarList.map(({ label, to }, i) => (
@@ -26,9 +26,8 @@ const MobileMenu = ({toggle, handle}) => {
           ))}
         </ul>
       </div>
-      {/* mobile menu end */}
     </div>
   );
-}
+};
 
-export default MobileMenu
+export default MobileMenu;

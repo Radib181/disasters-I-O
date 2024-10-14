@@ -31,7 +31,7 @@ const Navbar = () => {
                 <NavLink
                   to={to}
                   onClick={handle}
-                  className="font-onest text-[14px] text-grayBold"
+                  className="text-[14px] text-grayBold"
                 >
                   {label}
                 </NavLink>
