@@ -14,6 +14,7 @@ export default {
       },
       fontFamily: {
         onest: '"Onest", "sans-serif"',
+        babesNeue: "Bebas Neue",
       },
     },
   },
