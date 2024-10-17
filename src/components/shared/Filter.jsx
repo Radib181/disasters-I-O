@@ -1,24 +1,32 @@
-
 import { useNavigate } from "react-router-dom";
 import Button from "../common/Button";
 import { IoIosSearch } from "react-icons/io";
+import { cn } from "../lib/utils/cn";
 
-
-const Filter = ({ welcome, heading, btnText }) => {
-  const navigate = useNavigate()
+const Filter = ({ welcome, heading, btnText, img,className }) => {
+  const navigate = useNavigate();
   const condition = () => {
     if (btnText === "+ New Incidents") {
-      navigate("/incidents/stepbar")
+      navigate("/incidents/stepbar");
     } else {
-     return null
+      return null;
     }
-  }
+  };
   return (
     <section className="bg-whiteLight lg:py-6 py-3">
       <div className="flex md:flex-row flex-col justify-between items-center mx-20">
         <div>
           <p className=" text-[12px] text-grayBold">{welcome}</p>
-          <h1 className=" text-[26px] font-bold text-blackBold">{heading}</h1>
+          <h1
+            className={cn(
+              "text-[26px] font-bold text-blackBold",
+              img && "flex justify-center items-center gap-3",
+              className
+            )}
+          >
+            <img src={img} />
+            {heading}
+          </h1>
         </div>
         <div>
           <form className="flex md:flex-row flex-col gap-3">

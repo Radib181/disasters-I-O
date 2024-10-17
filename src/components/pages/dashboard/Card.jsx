@@ -1,7 +1,14 @@
-const Card = ({ img, title, description, amount }) => {
+import { cn } from "../../lib/utils/cn";
+
+const Card = ({ img, title, description, amount, className,imgClass }) => {
   return (
-    <div className="flex flex-col w-fit m-2 rounded-lg p-3 gap-1 shadow-inner shadow-sky-200 hover:cursor-pointer">
-      <img src={img} alt={title} className="w-[306px] h-[253px] rounded-lg" />
+    <div
+      className={cn(
+        "flex flex-col w-fit m-2 rounded-lg p-3 gap-1 shadow-inner shadow-sky-200 hover:cursor-pointer",
+        className
+      )}
+    >
+      <img src={img} alt={title} className={cn("rounded-lg", imgClass)} />
       <div>
         <h3 className="font-bold text-base leading-8 text-blackBold">
           {title}

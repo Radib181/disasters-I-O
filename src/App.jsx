@@ -8,7 +8,7 @@ import StepBar from "./components/pages/incidents/Stepbar";
 import React from "react";
 import NewIncidents from "./components/pages/incidents/NewIncidents";
 import DescribeIncidents from "./components/pages/incidents/DescribeIncidents";
-import IncidentsLocation from './components/pages/incidents/IncidentsLocation';
+import IncidentsLocation from "./components/pages/incidents/IncidentsLocation";
 import Location from "./components/pages/Location/Location";
 
 function App() {

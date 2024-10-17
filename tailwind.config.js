@@ -16,6 +16,9 @@ export default {
         onest: '"Onest", "sans-serif"',
         babesNeue: "Bebas Neue",
       },
+      fontSize: {
+        14 : "14px"
+      }
     },
   },
   plugins: [],
