@@ -1,12 +1,8 @@
-import { useNavigate } from "react-router-dom";
+
 import Button from "../common/Button";
 import { IoIosClose } from "react-icons/io";
 
-const NewIncident = ({ btnText, btnBack, welcome, heading, onClick }) => {
-  const navigate = useNavigate();
-  const stepBack = () => {
-    navigate("/incidents/stepbar");
-  };
+const NewIncident = ({ btnText, btnBack, welcome, heading, onClick,stepBackClick }) => {
   return (
     <section className="bg-whiteLight lg:py-6 py-3">
       <div className="flex md:flex-row flex-col justify-between items-center mx-20 gap-3">
@@ -25,7 +21,7 @@ const NewIncident = ({ btnText, btnBack, welcome, heading, onClick }) => {
         <div className="flex">
           <Button
             className="mx-auto me-3 bg-[#FAFAFA] border-[#D4D4D8] text-grayBold"
-            handleChange={stepBack}
+            handleChange={stepBackClick}
           >
             {btnBack}
           </Button>

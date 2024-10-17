@@ -10,6 +10,10 @@ const NewIncidents = () => {
   const nextStep = () => {
     navigate("/incidents/stepbar/newIncidents/describeIncidents");
   };
+    const stepBack = () => {
+      navigate("/incidents/stepbar");
+  };
+  
   return (
     <div>
       <NewIncident
@@ -18,6 +22,7 @@ const NewIncidents = () => {
         welcome="Home - incidents - NewIncidents"
         heading="Incidents"
         onClick={nextStep}
+        stepBackClick={stepBack}
       />
       <div>
         <h1 className="font-bold text-2xl text-blackBold text-center mt-10">
