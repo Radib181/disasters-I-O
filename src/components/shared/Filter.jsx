@@ -1,7 +1,18 @@
+
+import { useNavigate } from "react-router-dom";
 import Button from "../common/Button";
 import { IoIosSearch } from "react-icons/io";
 
+
 const Filter = ({ welcome, heading, btnText }) => {
+  const navigate = useNavigate()
+  const condition = () => {
+    if (btnText === "+ New Incidents") {
+      navigate("/incidents/stepbar")
+    } else {
+     return null
+    }
+  }
   return (
     <section className="bg-whiteLight lg:py-6 py-3">
       <div className="flex md:flex-row flex-col justify-between items-center mx-20">
@@ -25,7 +36,9 @@ const Filter = ({ welcome, heading, btnText }) => {
               placeholder="sort by: Date modified"
               className="md:w-48 w-40 h-10 py-2 px-6 rounded-[6px] text-[12px] text-grayBold"
             />
-            <Button className="mx-auto">{btnText}</Button>
+            <Button className="mx-auto" handleChange={condition}>
+              {btnText}
+            </Button>
           </form>
         </div>
       </div>

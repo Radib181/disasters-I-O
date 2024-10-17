@@ -12,4 +12,3 @@
 .active{
     @apply font-bold text-blackBold md:underline md:underline-offset-[20px];
 }
-

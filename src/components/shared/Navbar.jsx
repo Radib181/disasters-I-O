@@ -21,7 +21,7 @@ const Navbar = () => {
       <nav className="flex justify-around items-center bg-whiteLight py-2 border border-b-black">
         <div>
           <Link to="/">
-            <img src="Img/logo.png" alt="logo" />
+            <img src="/logo.png" alt="logo" />
           </Link>
         </div>
         <div>
@@ -46,11 +46,11 @@ const Navbar = () => {
           </button>
 
           <img
-            src="Img/notification.png"
+            src="/notification.png"
             alt="notification"
             className="bg-white rounded-full p-1"
           />
-          <img src="Img/login-logo.png" alt="login-logo" />
+          <img src="/login-logo.png" alt="login-logo" />
           <div className="md:flex flex-col hidden">
             <p className="text-grayBold text-[14px] ">Usman Zafar</p>
             <p className="text-grayBold text-[14px] ">usmanzafar@gmail.com</p>
