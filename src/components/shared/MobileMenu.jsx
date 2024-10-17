@@ -8,7 +8,7 @@ const MobileMenu = ({ toggle, handle }) => {
       <div
         className={cn(
           "absolute md:hidden top-14 left-0 w-full bg-white h-screen flex flex-col items-start gap-4 font-semibold text-2xl z-[999999] transform transition-transform duration-300 ",
-          toggle ? "opacity-100" : "opacity-0"
+          toggle ? "flex flex-col" : "hidden"
         )}
         style={{ transition: "transform 0.3 ease, opacity 0.3 ease" }}
       >

@@ -81,3 +81,78 @@ export const StepBarData = [
     des: "Lorem ipsum dolar sit general sac mascho werho",
   },
 ];
+
+export const NewIncidentsCardData = [
+  {
+    img: "/newIncidentsImg1.png",
+    title: "Avalanche",
+  },
+  {
+    img: "/newIncidentsImg2.png",
+    title: "Biological",
+  },
+  {
+    img: "/newIncidentsImg3.png",
+    title: "Blizzard",
+  },
+  {
+    img: "/newIncidentsImg4.png",
+    title: "Cold/Freezing",
+  },
+  {
+    img: "/newIncidentsImg5.png",
+    title: "Drought",
+  },
+  {
+    img: "/newIncidentsImg6.png",
+    title: "Earthquake",
+  },
+  {
+    img: "/newIncidentsImg7.png",
+    title: "Flooding",
+  },
+  {
+    img: "/newIncidentsImg8.png",
+    title: "Heat Wave",
+  },
+  {
+    img: "/newIncidentsImg9.png",
+    title: "Hail",
+  },
+  {
+    img: "/newIncidentsImg10.png",
+    title: "Lightning",
+  },
+  {
+    img: "/newIncidentsImg11.png",
+    title: "Man Made",
+  },
+  {
+    img: "/newIncidentsImg12.png",
+    title: "Mudslide",
+  },
+  {
+    img: "/newIncidentsImg13.png",
+    title: "Severe Storm",
+  },
+  {
+    img: "/newIncidentsImg14.png",
+    title: "Strong Wind",
+  },
+  {
+    img: "/newIncidentsImg15.png",
+    title: "Tornado",
+  },
+  {
+    img: "/newIncidentsImg16.png",
+    title: "Tsunami",
+  },
+  {
+    img: "/newIncidentsImg17.png",
+    title: "Volcanic Eruption",
+  },
+  {
+    img: "/newIncidentsImg18.png",
+    title: "Wildfire",
+  },
+];
