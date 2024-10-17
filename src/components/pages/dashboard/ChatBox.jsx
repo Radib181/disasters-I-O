@@ -53,8 +53,8 @@ const ChatBox = () => {
         <div className="flex justify-start items-center gap-3 mx-3 mt-3 pb-4">
           <div className="flex gap-2 items-center">
             <CiCamera className="md:w-6 w-4 md:h-6 h-4 text-grayBold" />
-            <img src="Img/Frame1.png" alt="" />
-            <img src="Img/Frame.png" alt="" />
+            <img src="/Frame1.png" alt="" />
+            <img src="/Frame.png" alt="" />
           </div>
           <Button className="rounded-full md:h-7 h-6 md:w-20 w-16">Send</Button>
         </div>
