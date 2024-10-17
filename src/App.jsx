@@ -4,7 +4,7 @@ import { BrowserRouter, Outlet, Route, Routes } from "react-router-dom";
 import Navbar from "./components/shared/Navbar";
 import Dashboard from "./components/pages/dashboard/Dashboard";
 import Incidents from "./components/pages/incidents/Incidents";
-import StepBar from "./components/pages/incidents/Stepbar";
+import StepBar from "./components/pages/incidents/StepBar";
 import React from "react";
 import NewIncidents from "./components/pages/incidents/NewIncidents";
 import DescribeIncidents from "./components/pages/incidents/DescribeIncidents";
