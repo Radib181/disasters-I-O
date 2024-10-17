@@ -1,8 +1,13 @@
+import { useNavigate } from "react-router-dom";
 import Button from "../../common/Button";
 import { StepBarData } from "../../lib/db";
 import StepBarCard from "./StepBarCard";
 
 const StepBar = () => {
+  const navigate = useNavigate()
+  const handle = () => {
+    navigate("/incidents/stepbar/newIncidents");
+  }
   return (
     <div>
       <div className="text-center">
@@ -29,7 +34,7 @@ const StepBar = () => {
         ))}
       </div>
       <div className="flex justify-center my-5">
-        <Button>Get started</Button>
+        <Button handleChange={handle}>Get started</Button>
       </div>
     </div>
   );

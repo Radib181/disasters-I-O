@@ -6,6 +6,7 @@ import Dashboard from "./components/pages/dashboard/Dashboard";
 import Incidents from "./components/pages/incidents/Incidents";
 import StepBar from "./components/pages/incidents/Stepbar";
 import React from "react";
+import NewIncidents from "./components/pages/incidents/NewIncidents";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/" element={<Dashboard />} />
           <Route path="/incidents" element={<Incidents />} />
           <Route path="/incidents/stepbar" element={<StepBar />} />
+          <Route path="/incidents/stepbar/newIncidents" element={<NewIncidents />} />
         </Routes>
       </BrowserRouter>
     </>
