@@ -1,8 +1,14 @@
-
 import Button from "../common/Button";
 import { IoIosClose } from "react-icons/io";
 
-const NewIncident = ({ btnText, btnBack, welcome, heading, onClick,stepBackClick }) => {
+const NewIncident = ({
+  btnText,
+  btnBack,
+  welcome,
+  heading,
+  onClick,
+  stepBackClick,
+}) => {
   return (
     <section className="bg-whiteLight lg:py-6 py-3">
       <div className="flex md:flex-row flex-col justify-between items-center mx-20 gap-3">
@@ -11,7 +17,7 @@ const NewIncident = ({ btnText, btnBack, welcome, heading, onClick,stepBackClick
             <IoIosClose className="text-4xl bg-white rounded-full" />
           </div>
           <div>
-            <p className=" text-[12px] text-grayBold">{welcome}</p>
+            <p className=" text-12 text-grayBold">{welcome}</p>
             <h1 className=" text-[26px] font-bold text-blackBold">{heading}</h1>
           </div>
         </div>
@@ -20,7 +26,7 @@ const NewIncident = ({ btnText, btnBack, welcome, heading, onClick,stepBackClick
         </div>
         <div className="flex">
           <Button
-            className="mx-auto me-3 bg-[#FAFAFA] border-[#D4D4D8] text-grayBold"
+            className="mx-auto me-3 bg-[#FAFAFA] border-[#D4D4D8] !text-grayBold hover:!text-white"
             handleChange={stepBackClick}
           >
             {btnBack}

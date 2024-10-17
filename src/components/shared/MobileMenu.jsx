@@ -18,7 +18,7 @@ const MobileMenu = ({ toggle, handle }) => {
               <NavLink
                 to={to}
                 onClick={handle}
-                className="font-onest text-[14px] text-grayBold"
+                className="font-onest text-14 text-grayBold"
               >
                 {label}
               </NavLink>

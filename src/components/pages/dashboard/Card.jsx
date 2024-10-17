@@ -1,6 +1,6 @@
 import { cn } from "../../lib/utils/cn";
 
-const Card = ({ img, title, description, amount, className,imgClass }) => {
+const Card = ({ img, title, description, amount, className, imgClass }) => {
   return (
     <div
       className={cn(
@@ -13,7 +13,7 @@ const Card = ({ img, title, description, amount, className,imgClass }) => {
         <h3 className="font-bold text-base leading-8 text-blackBold">
           {title}
         </h3>
-        <p className="text-grayBold text-[14px] leading-7">{description}</p>
+        <p className="text-grayBold text-14 leading-7">{description}</p>
         <p className="font-bold text-base text-blackBold leading-8">{amount}</p>
       </div>
     </div>

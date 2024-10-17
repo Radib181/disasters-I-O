@@ -14,28 +14,28 @@ const ChatBox = () => {
         <div>
           <div className="flex flex-col items-end">
             <div className="bg-[#3F3F46] rounded-[7px] lg:w-[213px] md:w-[185px] w-[150px] lg:px-4 px-2 lg:py-2 py-1 lg:my-2 my-1 lg:ms-3 ms-1">
-              <p className="text-[12px] leading-5 text-white">
+              <p className="text-12 leading-5 text-white">
                 Lorem ipsum dolar sit general sac mascho werho
               </p>
             </div>
           </div>
           <div className="flex flex-col items-start">
             <div className="bg-zinc-50 border border-[#E4E4E7] rounded-[7px] lg:w-[213px] md:w-[185px] w-[150px] lg:px-4 px-2 lg:py-2 py-1 lg:my-2 my-1 lg:ms-3 ms-1">
-              <p className="text-[12px] leading-5 text-grayBold">
+              <p className="text-12 leading-5 text-grayBold">
                 Lorem ipsum dolar sit general sac mascho werho
               </p>
             </div>
           </div>
           <div className="flex flex-col items-start">
             <div className="bg-zinc-50 border border-[#E4E4E7] rounded-[7px] lg:w-[213px] md:w-[185px] w-[150px] lg:px-4 px-2 lg:py-2 py-1 lg:my-2 my-1 lg:ms-3 ms-1">
-              <p className="text-[12px] leading-5 text-grayBold">
+              <p className="text-12 leading-5 text-grayBold">
                 Lorem ipsum dolar sit general sac mascho werho
               </p>
             </div>
           </div>
           <div className="flex flex-col items-end">
             <div className="bg-[#3F3F46] rounded-[7px] lg:w-[213px] md:w-[185px] w-[150px] lg:px-4 px-2 lg:py-2 py-1 lg:my-2 my-1 lg:ms-3 ms-1">
-              <p className="text-[12px] leading-5 text-white">
+              <p className="text-12 leading-5 text-white">
                 Lorem ipsum dolar sit general sac mascho werho
               </p>
             </div>
@@ -46,7 +46,7 @@ const ChatBox = () => {
           <input
             type="text"
             placeholder="Enter your question..."
-            className="border border-[#E5E7EB] lg:w-[301px] md:w-[270px] w-[235px] px-[10px] py-3 rounded-md bg-[#F3F4F6] hover:shadow-sm focus:outline-emerald-300 text-[12px] text-grayBold"
+            className="border border-[#E5E7EB] lg:w-[301px] md:w-[270px] w-[235px] px-[10px] py-3 rounded-md bg-[#F3F4F6] hover:shadow-sm focus:outline-emerald-300 text-12 text-grayBold"
           />
         </div>
 

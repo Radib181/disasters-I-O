@@ -8,7 +8,7 @@ const StepBarCard = ({ img, title, des }) => {
         <h3 className="font-bold text-xl leading-7 text-blackBold mb-4">
           {title}
         </h3>
-        <p className="text-[14px] text-grayBold leading-5">{des}</p>
+        <p className="text-14 text-grayBold leading-5">{des}</p>
       </div>
     </div>
   );

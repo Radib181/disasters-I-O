@@ -3,7 +3,7 @@ import Button from "../common/Button";
 import { IoIosSearch } from "react-icons/io";
 import { cn } from "../lib/utils/cn";
 
-const Filter = ({ welcome, heading, btnText, img,className }) => {
+const Filter = ({ welcome, heading, btnText, img, className }) => {
   const navigate = useNavigate();
   const condition = () => {
     if (btnText === "+ New Incidents") {
@@ -16,7 +16,7 @@ const Filter = ({ welcome, heading, btnText, img,className }) => {
     <section className="bg-whiteLight lg:py-6 py-3">
       <div className="flex md:flex-row flex-col justify-between items-center mx-20">
         <div>
-          <p className=" text-[12px] text-grayBold">{welcome}</p>
+          <p className="text-12 text-grayBold">{welcome}</p>
           <h1
             className={cn(
               "text-[26px] font-bold text-blackBold",
@@ -34,7 +34,7 @@ const Filter = ({ welcome, heading, btnText, img,className }) => {
               <input
                 type="text"
                 placeholder="Search incident"
-                className="py-2 px-6 rounded-[6px] text-[12px] text-grayBold w-40 md:w-48 h-10"
+                className="py-2 px-6 rounded-[6px] text-12 text-grayBold w-40 md:w-48 h-10"
               />
               <IoIosSearch className=" absolute top-[10px] left-1 text-zinc-500 h-5 w-5" />
             </div>
@@ -42,7 +42,7 @@ const Filter = ({ welcome, heading, btnText, img,className }) => {
             <input
               type="text"
               placeholder="sort by: Date modified"
-              className="md:w-48 w-40 h-10 py-2 px-6 rounded-[6px] text-[12px] text-grayBold"
+              className="md:w-48 w-40 h-10 py-2 px-6 rounded-[6px] text-12 text-grayBold"
             />
             <Button className="mx-auto" handleChange={condition}>
               {btnText}

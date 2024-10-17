@@ -15,7 +15,7 @@ const Location = () => {
         heading="DR-4699 March 2023 Severe Storms"
         btnText="+ New Location"
         img="/tree.png"
-        className={"text-xl"}
+        className={"md:text-2xl text-base"}
       />
       {/* details */}
       <div className="flex md:flex-row flex-col md:justify-around justify-center md:items-start items-center my-12 gap-3 w-full">

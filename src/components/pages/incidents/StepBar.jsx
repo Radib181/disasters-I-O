@@ -4,10 +4,10 @@ import { StepBarData } from "../../lib/db";
 import StepBarCard from "./StepBarCard";
 
 const StepBar = () => {
-  const navigate = useNavigate()
+  const navigate = useNavigate();
   const handle = () => {
     navigate("/incidents/stepbar/newIncidents");
-  }
+  };
   return (
     <div>
       <div className="text-center">
@@ -21,11 +21,11 @@ const StepBar = () => {
       </div>
 
       <div className="flex justify-center items-center lg:w-[598px] md:w-[485px] sm:w-[355px] w-[250px] mx-auto mt-5">
-          <div className="lg:w-7 w-5 lg:h-7 h-5 bg-whiteLight rounded-full"></div>
-          <hr className="bg-whiteLight w-[299px] h-[3px]" />
-          <div className="lg:w-7 w-5 lg:h-7 h-5 bg-whiteLight rounded-full"></div>
-          <hr className="bg-whiteLight w-[299px] h-[3px]" />
-          <div className="lg:w-7 w-5 lg:h-7 h-5 bg-whiteLight rounded-full"></div>
+        <div className="lg:w-7 w-5 lg:h-7 h-5 bg-whiteLight rounded-full"></div>
+        <hr className="bg-whiteLight w-[299px] h-[3px]" />
+        <div className="lg:w-7 w-5 lg:h-7 h-5 bg-whiteLight rounded-full"></div>
+        <hr className="bg-whiteLight w-[299px] h-[3px]" />
+        <div className="lg:w-7 w-5 lg:h-7 h-5 bg-whiteLight rounded-full"></div>
       </div>
 
       <div className="flex md:flex-row flex-col justify-center items-center gap-4 mt-6">

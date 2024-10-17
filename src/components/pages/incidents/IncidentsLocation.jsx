@@ -19,12 +19,12 @@ const IncidentsLocation = () => {
         onClick={finished}
         stepBackClick={stepBack}
       />
-      <div className="flex flex-col justify-center items-center gap-4 my-6">
-        <div className="-ms-10">
+      <div className="flex flex-col justify-center items-center gap-4 my-6 md:mx-0 mx-5">
+        <div className="md:-ms-10 ms-0 ">
           <h1 className="font-bold text-2xl text-blackBold ">
             Where&apos;s the incident?
           </h1>
-          <p className="text-[14px] leading-5 text-grayBold">
+          <p className="text-14 leading-5 text-grayBold">
             Enter a GPS, address. or pin point on the map. Try to be as accurate
             as possible, or click:Jurisdiction Wide
           </p>

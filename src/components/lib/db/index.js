@@ -182,7 +182,6 @@ export const locationData = [
     description: "Tulare County,  Los Angles, CA 23415",
     amount: "$1,456,654.00",
   },
-
 ];
 
 export const locationActivitiesData = [
@@ -197,8 +196,9 @@ export const locationActivitiesData = [
     title: "Activity name",
     locationName: "Location name 16.12212, -122.1424",
     amount: "$1,456,654.00",
-  }
-]
+  },
+];
+
 export const locationDocumentsData = [
   {
     img: "/locationImg1.png",
@@ -211,5 +211,5 @@ export const locationDocumentsData = [
     title: "Document name",
     locationName: "Location name 16.12212, -122.1424",
     amount: "$1,456,654.00",
-  }
-]
+  },
+];

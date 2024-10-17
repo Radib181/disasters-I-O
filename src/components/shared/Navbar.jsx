@@ -31,7 +31,7 @@ const Navbar = () => {
                 <NavLink
                   to={to}
                   onClick={handle}
-                  className="text-[14px] text-grayBold"
+                  className="text-14 text-grayBold"
                 >
                   {label}
                 </NavLink>
@@ -52,8 +52,8 @@ const Navbar = () => {
           />
           <img src="/login-logo.png" alt="login-logo" />
           <div className="md:flex flex-col hidden">
-            <p className="text-grayBold text-[14px] ">Usman Zafar</p>
-            <p className="text-grayBold text-[14px] ">usmanzafar@gmail.com</p>
+            <p className="text-grayBold text-14 ">Usman Zafar</p>
+            <p className="text-grayBold text-14 ">usmanzafar@gmail.com</p>
           </div>
         </div>
       </nav>

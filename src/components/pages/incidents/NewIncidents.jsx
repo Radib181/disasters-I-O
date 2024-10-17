@@ -10,10 +10,10 @@ const NewIncidents = () => {
   const nextStep = () => {
     navigate("/incidents/stepbar/newIncidents/describeIncidents");
   };
-    const stepBack = () => {
-      navigate("/incidents/stepbar");
+  const stepBack = () => {
+    navigate("/incidents/stepbar");
   };
-  
+
   return (
     <div>
       <NewIncident

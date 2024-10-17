@@ -4,8 +4,8 @@ import Card from "../dashboard/Card";
 
 const Incidents = () => {
   const handle = () => {
-    console.log("hello world")
-  }
+    console.log("hello world");
+  };
   return (
     <div>
       <Filter

@@ -1,6 +1,6 @@
 import { cn } from "../../lib/utils/cn";
 
-const NewIncidentsCard = ({ img, title,onClick, isActive }) => {
+const NewIncidentsCard = ({ img, title, onClick, isActive }) => {
   return (
     <button
       onClick={onClick}
@@ -12,7 +12,7 @@ const NewIncidentsCard = ({ img, title,onClick, isActive }) => {
       <img src={img} alt={title} />
       <p
         className={cn(
-          "text-[14px] font-onest group-hover:text-white text-grayBold",
+          "text-14 font-onest group-hover:text-white text-grayBold",
           isActive && "text-white"
         )}
       >

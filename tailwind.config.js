@@ -17,7 +17,8 @@ export default {
         babesNeue: "Bebas Neue",
       },
       fontSize: {
-        14 : "14px"
+        14: "14px",
+        12: "12px"
       }
     },
   },
