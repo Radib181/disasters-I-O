@@ -9,6 +9,7 @@ import React from "react";
 import NewIncidents from "./components/pages/incidents/NewIncidents";
 import DescribeIncidents from "./components/pages/incidents/DescribeIncidents";
 import IncidentsLocation from './components/pages/incidents/IncidentsLocation';
+import Location from "./components/pages/Location/Location";
 
 function App() {
   return (
@@ -19,9 +20,19 @@ function App() {
           <Route path="/" element={<Dashboard />} />
           <Route path="/incidents" element={<Incidents />} />
           <Route path="/incidents/stepbar" element={<StepBar />} />
-          <Route path="/incidents/stepbar/newIncidents" element={<NewIncidents />} />
-          <Route path="/incidents/stepbar/newIncidents/describeIncidents" element={<DescribeIncidents />} />
-          <Route path="/incidents/stepbar/newIncidents/describeIncidents/location" element={<IncidentsLocation />} />
+          <Route
+            path="/incidents/stepbar/newIncidents"
+            element={<NewIncidents />}
+          />
+          <Route
+            path="/incidents/stepbar/newIncidents/describeIncidents"
+            element={<DescribeIncidents />}
+          />
+          <Route
+            path="/incidents/stepbar/newIncidents/describeIncidents/location"
+            element={<IncidentsLocation />}
+          />
+          <Route path="/Locations" element={<Location />} />
         </Routes>
       </BrowserRouter>
     </>
