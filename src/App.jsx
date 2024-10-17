@@ -10,6 +10,7 @@ import NewIncidents from "./components/pages/incidents/NewIncidents";
 import DescribeIncidents from "./components/pages/incidents/DescribeIncidents";
 import IncidentsLocation from "./components/pages/incidents/IncidentsLocation";
 import Location from "./components/pages/Location/Location";
+import Error from "./components/pages/Error/Error";
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
             element={<IncidentsLocation />}
           />
           <Route path="/Locations" element={<Location />} />
+          <Route path="*" element={<Error />} />
         </Routes>
       </BrowserRouter>
     </>
