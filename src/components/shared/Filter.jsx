@@ -34,7 +34,7 @@ const Filter = ({ welcome, heading, btnText, img, className }) => {
               <input
                 type="text"
                 placeholder="Search incident"
-                className="py-2 px-6 rounded-[6px] text-12 text-grayBold w-40 md:w-48 h-10"
+                className="py-2 px-6 rounded-[6px] text-12 text-grayBold w-40 md:w-48 h-10 focus:outline-none focus:shadow-inner focus:shadow-sky-300 transition-all duration-300"
               />
               <IoIosSearch className=" absolute top-[10px] left-1 text-zinc-500 h-5 w-5" />
             </div>
@@ -42,7 +42,7 @@ const Filter = ({ welcome, heading, btnText, img, className }) => {
             <input
               type="text"
               placeholder="sort by: Date modified"
-              className="md:w-48 w-40 h-10 py-2 px-6 rounded-[6px] text-12 text-grayBold"
+              className="md:w-48 w-40 h-10 py-2 px-6 rounded-[6px] text-12 text-grayBold focus:outline-none focus:shadow-inner focus:shadow-sky-300 transition-all duration-300"
             />
             <Button className="mx-auto" handleChange={condition}>
               {btnText}

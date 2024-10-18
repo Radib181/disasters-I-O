@@ -5,7 +5,7 @@ const NewIncidentsCard = ({ img, title, onClick, isActive }) => {
     <button
       onClick={onClick}
       className={cn(
-        "inline-flex justify-start items-center gap-2 w-44 p-3 bg-whiteLight border border-[#F4F4F5] rounded-md hover:cursor-pointer hover:bg-orange transition-all duration-300 group",
+        "inline-flex justify-start items-center gap-2 w-44 p-3 bg-whiteLight border border-gray-300 rounded-md hover:cursor-pointer hover:bg-orange transition-all duration-300 group",
         isActive && "bg-orange"
       )}
     >

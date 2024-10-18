@@ -50,13 +50,15 @@ const ChatBox = () => {
           />
         </div>
 
-        <div className="flex justify-start items-center gap-3 mx-3 mt-3 pb-4">
+        <div className="flex md:justify-between justify-around items-center gap-3 mx-3 mt-3 pb-4">
           <div className="flex gap-2 items-center">
-            <CiCamera className="md:w-6 w-4 md:h-6 h-4 text-grayBold" />
-            <img src="/Frame1.png" alt="" />
-            <img src="/Frame.png" alt="" />
+            <CiCamera className="hover:cursor-pointer md:w-6 w-4 md:h-6 h-4 text-grayBold" />
+            <img src="/Frame1.png" alt="" className="hover:cursor-pointer" />
+            <img src="/Frame.png" alt="" className="hover:cursor-pointer" />
           </div>
-          <Button className="rounded-full md:h-7 h-6 md:w-20 w-16">Send</Button>
+          <Button className="rounded-full md:h-7 h-6 md:w-20 w-16 hover:bg-rose-700">
+            Send
+          </Button>
         </div>
       </div>
     </>

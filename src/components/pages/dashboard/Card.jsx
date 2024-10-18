@@ -4,7 +4,7 @@ const Card = ({ img, title, description, amount, className, imgClass }) => {
   return (
     <div
       className={cn(
-        "flex flex-col w-fit m-2 rounded-lg p-3 gap-1 shadow-inner shadow-sky-200 hover:cursor-pointer",
+        "flex flex-col w-fit m-2 rounded-lg p-3 gap-1 shadow-inner shadow-sky-200 hover:cursor-pointer hover:scale-105 transition-all duration-300",
         className
       )}
     >

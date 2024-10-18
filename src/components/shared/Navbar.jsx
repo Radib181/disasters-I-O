@@ -45,11 +45,7 @@ const Navbar = () => {
             {toggle ? <IoMdClose /> : <FaBars />}
           </button>
 
-          <img
-            src="/notification.png"
-            alt="notification"
-            className="bg-white rounded-full p-1"
-          />
+          <img src="/notification.png" alt="notification" />
           <img src="/login-logo.png" alt="login-logo" />
           <div className="md:flex flex-col hidden">
             <p className="text-grayBold text-14 ">Usman Zafar</p>
