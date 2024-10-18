@@ -137,7 +137,7 @@ const Location = () => {
           </div>
         </div>
         {/* map */}
-        <div className="md:w-1/2 mx-3 w-[90%] flex flex-col justify-center items-center">
+        <div className="md:w-1/2 ms-5 w-[90%] flex flex-col justify-center items-start">
           <p className="text-14 leading-6 text-grayBold mb-5">Incident Map</p>
           <img src="/location-map.png" alt="" />
           <p className="text-14 leading-6 text-grayBold mb-5">

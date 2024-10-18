@@ -20,7 +20,7 @@ const Dashboard = () => {
       </div>
 
       <button
-        className="bg-orange text-white md:w-[77px] w-[57px] md:h-[77px] h-[57px] rounded-full inline-flex justify-center items-center bottom-4 right-4 fixed hover:cursor-pointer font-bold text-[55px] font-white font-babesNeue z-[9999]"
+        className="bg-orange text-white md:w-[77px] w-[57px] md:h-[77px] h-[57px] rounded-full inline-flex justify-center items-center bottom-4 right-4 fixed hover:cursor-pointer font-bold text-[55px] font-white font-babesNeue z-[9999] hover:scale-95 transition-all duration-300"
         onClick={handleChat}
       >
         {chatOpen ? <IoClose /> : "C"}

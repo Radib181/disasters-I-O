@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import NewIncident from "../../shared/NewIncident";
+import { IoIosSearch } from "react-icons/io";
 
 const IncidentsLocation = () => {
   const navigate = useNavigate();
@@ -29,7 +30,27 @@ const IncidentsLocation = () => {
             as possible, or click:Jurisdiction Wide
           </p>
         </div>
-        <img src="/google-map.png" alt="google map" className="img-fluid" />
+        <div className="relative">
+          <img src="/google-map.png" alt="google map" />
+          <div className="flex flex-col gap-2 absolute top-3 left-3 z-[9999]">
+            <div className="relative">
+              <input
+                type="text"
+                placeholder="Enter incident address or GPS"
+                className="bg-whiteLight px-6 py-2 rounded-md focus:outline-none focus:shadow-inner focus:shadow-sky-300 text-grayBold text-14"
+              />
+              <IoIosSearch className=" absolute top-2 left-0 size-5 text-grayBold" />
+            </div>
+            <div className="relative">
+              <input
+                type="text"
+                placeholder="Pinpoint damage"
+                className="bg-whiteLight px-6 py-2 rounded-md focus:outline-none focus:shadow-inner focus:shadow-sky-300 text-grayBold text-14"
+              />
+              <IoIosSearch className=" absolute top-2 left-0 size-5 text-grayBold" />
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
